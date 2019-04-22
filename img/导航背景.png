@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>遥近个人博客</title>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" </head>
+		<link rel="stylesheet" href="css/reset.css" />
+
+		<body>
+			<div class="header w clearfix">
+				<ul class="nav">
+					<li>
+						<a href="#">首页</a>
+						<p>回到首页看看</p>
+					</li>
+					<li>
+						<a href="#">Web前端</a>
+						<p>待开发CSS &nbsp;HTML</p>
+					</li>
+					<li>
+						<a href="#">Excel</a>
+						<p>待开发 关于函数、小技巧	</p>
+					</li>
+					<li>
+						<a href="#">IT信息</a>
+						<p>IT最新新闻</p>
+					</li>
+					<li>
+						<a href="#">火影忍者</a>
+						<p>火影迷、火影忍者手游</p>
+					</li>
+				</ul>
+				<div class="logo">
+					<a href="#"><img src="img/images/logo.png"></a>
+				</div>
+			</div>
+			<div class="banner w"><img src="img/images/tupian.png" />
+				<div class="yuanquan">
+					<a href="#"></a>
+					<a href="#" class="active"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+			</div>
+			<div class="conter w clearfix">
+				<h1>火影忍者</h1>
+				<div class="pl">
+					<h2>宇智波鼬</h2>
+					<p class="p1">宇智波佐助的哥哥</p>
+					<div class="imgDIV"><img src="img/images/pl.png"></div>
+					<p class="p2">非常擅长使用瞳术，拥有万花筒写轮眼</p>
+					<a class="lm" href="#">了解更多</a>
+				</div>
+
+				<div class="cs">
+					<h2>自来也</h2>
+					<p class="p1">传说三忍之一，也是鸣人的师傅</p>
+					<div class="imgDIV"><img src="img/images/cs.png" /></div>
+					<p class="p2">教会了鸣人螺旋丸，还会仙术</p>
+					<a class="lm" href="#">了解更多</a>
+				</div>
+				<div class="uc">
+					<h2>照美冥</h2>
+					<p class="p1">第五代水</p>
+					<div class="imgDIV"><img src="img/images/uc.png" /></div>
+					<p class="p2">拥有溶遁的超强忍者，颜值非常高</p>
+					<a class="lm" href="#">了解更多	</a>
+				</div>
+			</div>
+			<div class="conter w clearfix">
+				<h1>Web前端开发</h1>
+				<div class="pl">
+					<h2>CSS和HTML</h2>
+					<p class="p1">最简单的，学完可以做一个静态没有特效的网页</p>
+					<div class="imgDIV"><img src="img/images/h5.png"></div>
+					<p class="p2">初学者建议先从这个开始学习</p>
+					<a class="lm" href="#">了解更多</a>
+				</div>
+
+				<div class="cs">
+					<h2>JavaScript</h2>
+					<p class="p1">网页的互动、交互</p>
+					<div class="imgDIV"><img src="img/images/js.png"/></div>
+					<p class="p2">建议学完css3 html5后学习</p>
+					<a class="lm" href="#">了解更多</a>
+				</div>
+				<div class="uc">
+					<h2>CSS3 HTML5</h2>
+					<p class="p1">基于HTML、css的加强优化，增加一些动画</p>
+					<div class="imgDIV"><img src="img/images/c3.png"/></div>
+					<p class="p2">了解一些简单的动画，以及如何更好的语义化</p>
+					<a class="lm" href="#">了解更多	</a>
+				</div>
+			</div>
+			
+			<div class="footer w clearfix">
+				<div class="sc">
+					<h2>如何联系我</h2>
+					<p class="p1">点击下方按钮获取相关信息</p>
+					<div class="anniu">
+						<a href="#"><img src="img/images/btn1.png" /></a>
+						<a href="#"><img src="img/images/btn2.png" /></a>
+						<a href="#"><img src="img/images/btn3.png" /></a>
+						<a href="#"><img src="img/images/btn4.png" /></a>
+						
+					</div>
+					<h2 class="nl">我要反馈bug</h2>
+					<p class="p1">目前网站bug很多，后续会优化，对比上个版本优化自适应问题，兼容部分浏览器</p>
+					<form action="#"><input class="txt" type="text" placeholder="填写内容" />
+						<button class="btnn">尽情期待</button>
+					</form>
+				</div>
+				<div class="ct">
+					<h2>给予建议</h2>
+					<form action="#">
+						<input class="txt" type="text" placeholder="你的名字"/>
+						<input class="txt" type="text" placeholder="填写你的邮箱" />
+						<textarea class="wenben" placeholder="写下你的内容"></textarea>
+						<button class="btnn">尽情期待</button>
+					</form>
+				</div>
+				<div class="nu">
+					<h2>博客的旧版本</h2>
+					<img src="img/images/1.png" />
+					<p>2018/10/28  完成 第一个网站，随便写了点内容，参考腾讯05年的某个网站ui随便改下写的，非常少的内容</p>
+					
+					<button class="btnn"><a href="http://jin.yjdzm.com">点击查看</a></button>
+				</div>
+			</div>
+			<div class="over">
+				<div class="w">
+					<p class="right">2018/11/13</p>
+					<p>遥近的个人博客</p>
+					<p>
+						<a href="#">首页</a> |
+						<a href="#">关于</a> |
+						<a href="#">Web前端</a> |
+						<a href="#">Excel</a> |
+						<a href="#">IT信息</a>
+					</p>
+			
+				</div>
+			</div>
+
+			<!-- 处理ie6的png问题 -->
+			<!--[if IE 6]>
+			<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+			<script type="text/javascript">DD_belatedPNG.fix("div,img,a,h1");</script>
+		<![endif]-->
+		</body>
+
+</html>
